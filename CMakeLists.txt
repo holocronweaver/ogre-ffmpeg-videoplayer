@@ -1,6 +1,6 @@
     cmake_minimum_required(VERSION 2.8)
 
-option(BUILD_VIDEOPLAYER_DEMO "Build the videoplayer demo" ON)
+option(BUILD_VIDEOPLAYER_DEMO "Build the videoplayer demo" OFF)
 
 set(OGRE_FFMPEG_VIDEOPLAYER_LIBRARY "ogre-ffmpeg-videoplayer")
 set(OGRE_FFMPEG_VIDEOPLAYER_LIBRARY ${OGRE_FFMPEG_VIDEOPLAYER_LIBRARY} PARENT_SCOPE)
