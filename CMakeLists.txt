@@ -44,8 +44,10 @@ find_package(Boost REQUIRED COMPONENTS ${BOOST_COMPONENTS})
 include_directories(${Boost_INCLUDE_DIRS})
 
 # Find Ogre
-find_package(OGRE REQUIRED)
-include_directories(${OGRE_INCLUDE_DIRS})
+# find_package(OGRE REQUIRED)
+# include_directories(${OGRE_INCLUDE_DIRS})
+include_directories(${CMAKE_SOURCE_DIR}/ogre/OgreMain/include)
+include_directories(${CMAKE_BINARY_DIR}/ogre/include)
 
 include_directories(src/)
 
